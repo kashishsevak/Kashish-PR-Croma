@@ -55,10 +55,19 @@ header .profile li {
 .mobile-available .carousel-control-prev,
 .mobile-available .carousel-control-next {
   background-color: #3c3c3ca9;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   top: 40%;
 }
+
+.hero .carousel-control-prev-icon,
+.hero .carousel-control-next-icon,
+.mobile-available .carousel-control-prev-icon,
+.mobile-available .carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+}
+
 
 /* hero section end */
 
@@ -66,8 +75,8 @@ header .profile li {
 
 .products .carousel-control-prev,
 .products .carousel-control-next {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   top: 25%;
 }
 
@@ -104,12 +113,12 @@ header .profile li {
 /* Bank Offers scetion end  */
 
 /* croma exclusive section start */
-.croma-exclusive .card a {
+.croma-exclusive .card button i,header .profile .bi-person-fill {
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
 
-.croma-exclusive .card a:hover {
+.croma-exclusive .card button i:hover,header .profile .bi-person-fill:hover {
   color: var(--theme-light-green);
 }
 
@@ -153,23 +162,27 @@ footer .social-icon .bi-twitter:hover,
 footer .social-icon .fa-linkedin-in:hover {
   color: #0077b5;
 }
-footer .social-icon .fa-facebook-f:hover{
+
+footer .social-icon .fa-facebook-f:hover {
   color: #3b5998;
 }
 
-footer .social-icon .fa-square-instagram:hover{
-  color: #b0a0e9;
+footer .social-icon .fa-square-instagram:hover {
+  color: #e8baff;
 }
 
-footer .useful-link a:hover,footer .products a:hover{
+footer .useful-link a:hover,
+footer .products a:hover {
   color: var(--theme-light-green);
 }
 
 
-footer .accordion-item,footer .accordion-button{
+footer .accordion-item,
+footer .accordion-button {
   background-color: var(--theme-bg-dark) !important;
   border: 0 !important;
-  box-shadow: none !important; 
+  box-shadow: none !important;
 
 }
+
 /* footer section end  */
