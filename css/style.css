@@ -1,6 +1,7 @@
 :root {
   --theme-green: #088466;
   --theme-light-green: #12daa8;
+  --theme-bg-dark: #191919;
 
 }
 
@@ -50,7 +51,9 @@ header .profile li {
 }
 
 .hero .carousel-control-prev,
-.hero .carousel-control-next {
+.hero .carousel-control-next,
+.mobile-available .carousel-control-prev,
+.mobile-available .carousel-control-next {
   background-color: #3c3c3ca9;
   width: 50px;
   height: 50px;
@@ -143,20 +146,30 @@ footer .products a {
 }
 
 footer .social-icon .bi-youtube:hover {
-  color: #db1e1e;
+  color: #ff0000;
 }
 
-footer .social-icon .fa-facebook-f:hover,
 footer .social-icon .bi-twitter:hover,
 footer .social-icon .fa-linkedin-in:hover {
-  color: #595fdc;
+  color: #0077b5;
+}
+footer .social-icon .fa-facebook-f:hover{
+  color: #3b5998;
 }
 
 footer .social-icon .fa-square-instagram:hover{
-  color: #e3a0e9;
+  color: #b0a0e9;
 }
 
 footer .useful-link a:hover,footer .products a:hover{
   color: var(--theme-light-green);
+}
+
+
+footer .accordion-item,footer .accordion-button{
+  background-color: var(--theme-bg-dark) !important;
+  border: 0 !important;
+  box-shadow: none !important; 
+
 }
 /* footer section end  */
